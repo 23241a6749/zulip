@@ -1028,6 +1028,12 @@ div.overlay .flex.overlay-content > .overlay-container,
 .dropdown-current-value-not-in-options,
 .setting-disabled-option {
     font-style: italic;
+    color: var(--color-text-setting-disabled-option);
+
+    .setting-disabled-option-text,
+    .setting-disabled-option-icon {
+        color: var(--color-text-setting-disabled-option);
+    }
 
     .setting-disabled-option-icon {
         align-self: center;

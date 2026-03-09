@@ -2928,6 +2928,15 @@
         hsl(206deg 80% 62% / 80%),
         hsl(0deg 0% 0% / 90%)
     );
+    --color-background-disabled-legacy-input: light-dark(
+        hsl(0deg 0% 93%),
+        hsl(0deg 0% 0% / 20%)
+    );
+    /* Dropdown setting disabled option (e.g. "No language set") */
+    --color-text-setting-disabled-option: light-dark(
+        hsl(38deg 46% 54%),
+        hsl(38deg 46% 54%)
+    );
     --color-text-input: light-dark(hsl(0deg 0% 14%), hsl(0deg 0% 95%));
     /* TODO: Light mode uses browser-default white
        backgrounds; we should extend the use of this
